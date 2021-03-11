@@ -31,7 +31,7 @@ class ViewApplicationComponent extends Component {
                            <td>  First Name </td>
                            <td> {this.state.application.firstName}</td>
                         </tr>
-                        {this.state.application.middleName !="" ?
+                        {this.state.application.middleName !=="" ?
                         <tr>
                             <td>  Middle Name </td>
                             <td> {this.state.application.middleName}</td>
@@ -56,7 +56,7 @@ class ViewApplicationComponent extends Component {
                             <td> Address Line 1 </td>
                             <td> {this.state.application.address1}</td>
                         </tr>
-                        {this.state.application.address2 !="" ?
+                        {this.state.application.address2  !=="" ?
                         <tr>
                             <td>  Address Line 2 </td>
                             <td> {this.state.application.address2}</td>
@@ -77,12 +77,12 @@ class ViewApplicationComponent extends Component {
                             <td>  Email ID </td>
                             <td> {this.state.application.email}</td>
                         </tr>
-                        {this.state.application.homePhone != 0?
+                        {this.state.application.homePhone  !== 0?
                         <tr>
                             <td>  Home Phone </td>
                            <td> {this.state.application.homePhone}</td>
                         </tr> : <tr></tr>}
-                        {this.state.application.officePhone != 0 ?
+                        {this.state.application.officePhone  !== 0 ?
                         <tr>
                             <td>  Office Phone</td>
                            <td> {this.state.application.officePhone}</td>
@@ -123,7 +123,7 @@ class ViewApplicationComponent extends Component {
                             <td>  Employer Address Line 1 </td>
                             <td>{this.state.application.employer_addr_1}</td>
                         </tr>
-                        {this.state.application.employer_addr_2 !="" ?
+                        {this.state.application.employer_addr_2 !=="" ?
                         <tr>
                             <td>   Employer Address Line 2</td>
                             <td>{this.state.application.employer_addr_2}</td>
@@ -148,7 +148,7 @@ class ViewApplicationComponent extends Component {
                             <td> ApplicationStatus </td>
                             <td>{this.state.application.applicationStatus}</td>
                         </tr>
-                        {this.state.application.rejectedReason !="NA" ?
+                        {this.state.application.rejectedReason !=="NA" ?
                         <tr>
                             <td> Reject Reason</td>
                             <td> {this.state.application.rejectedReason}</td>

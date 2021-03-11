@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Jumbotron, Button } from 'react-bootstrap'
 import { MDBCard, MDBCardTitle, MDBCardBody, MDBBtn, MDBRow, MDBCol,MDBContainer, MDBIcon } from 'mdbreact';
 import ApplicationService from '../services/ApplicationService';
-//import Chart from './Chart'
+import Chart from './Chart'
 import { alignPropType } from 'react-bootstrap/esm/DropdownMenu';
 class DashboardComponent extends Component {
 
@@ -197,9 +197,9 @@ class DashboardComponent extends Component {
                     </MDBRow>
                     </MDBContainer>
                 </div>
-                {/* <div>
+                <div>
                     <Chart />
-                </div> */}
+                </div>
 
                 <div>
                     <br></br>
